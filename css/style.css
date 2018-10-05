@@ -1,0 +1,114 @@
+body{
+    background: #ccc;
+    background-size: 100%;
+    
+}
+
+#body-container{
+    width: 800px;
+    margin: 50px auto;
+    background:#fff;
+    box-shadow: 0.1px 0.1px 3px rgb(239, 239, 239);
+     background: -webkit-linear-gradient(left,white, #1ce);
+}
+
+
+
+.contact-form{
+   padding: 10px;
+}
+
+.contact-form fieldset{
+    border: none;
+}
+
+.contact-form fieldset legend{
+    font-family: sans-serif;
+    font-weight: 600;
+}
+
+
+.contact-form fieldset > div{
+   margin-top: 20px;
+}
+
+.contact-form label{
+   display: block;
+   font-family: sans-serif;
+}
+
+.contact-form fieldset > div input[type=text],input[type=password],textarea{
+    padding: 7px 10px;
+    width: 40%;
+    outline: none;
+    font-family: sans-serif;
+}
+
+.contact-form fieldset > div textarea{
+    height: 70px;
+}
+
+.contact-form fieldset > div input[type=submit],input[type=reset]{
+    padding: 7px 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    background: #fff;
+    border: none;
+    box-shadow: 0.1px 0.1px 3px rgb(239, 239, 239);
+}
+
+
+
+#mybtn{
+   border-bottom: 1px solid #fff;
+   background: #fff;
+}
+
+#mybtn button{
+    padding: 7px 10px;
+    border: none;
+  cursor: pointer;
+  background: #1ce;
+  color: #fff;
+  
+      box-shadow: 0.1px 0.1px 5px rgb(239, 239, 239);
+}
+
+#page{
+    padding: 20px;
+}
+
+
+.error{
+    font-family: sans-serif;
+    color: #fff;
+    margin-top: 5px;
+}
+
+#msg_error{
+    position: relative;
+    top: -40px;
+}
+
+
+
+.response_error{
+    color: red;
+    font-family: sans-serif;
+    letter-spacing: 2px;
+    border-bottom: 1px solid red;
+    font-size: 14px;
+}
+
+/* for show uers form*/
+td {border: 1px #DDD solid; padding: 5px; cursor: pointer;}
+
+.selected {
+    background-color: brown;
+    color: #FFF;
+}
+
+
+
+
+

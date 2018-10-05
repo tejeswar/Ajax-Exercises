@@ -1,0 +1,28 @@
+<?php
+
+$conn = new mysqli("localhost", "root", "");
+$conn->select_db("ajax_tut");
+
+$name = $_POST['name'];
+$email = $_POST['email'];
+$msg = $_POST['msg'];
+
+if (empty($name) || empty($email) || empty($msg)) {
+    echo "Please fill out all from data";
+} else {
+
+    $insert_query = $conn->query("INSERT INTO contacts (name, email , msg) VALUES('$name' ,'$email' ,'$msg')");
+    if ($insert_query == true) {
+        echo "Thanks for contact us";
+    } else {
+        echo "error!";
+    }
+}
+
+
+
+
+
+
+
+

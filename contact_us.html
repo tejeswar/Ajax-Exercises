@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+<form class="contact-form" id="myform" method="POST" onclick="return false;">
+    <fieldset>
+        <legend>AJAX Contact Form</legend>
+        
+        <div id="ajax_response"  class="response_error"></div>
+          
+        <div>
+            <label for="name">Name</label> 
+            <input type="text" name="name" id="name" placeholder="Name" onkeyup="validFName(this)">
+            <span id="name_error" class="error"></span>
+        </div>
+
+        <div>
+            <label for="email">Email</label> 
+            <input type="text" name="email" id="email" placeholder="Email" onkeyup="validate_email(this)">
+              <span id="email_error" class="error"></span>
+        </div>
+
+        <div>
+            <label for="msg">Message</label> 
+            <textarea type="text" name="msg" id="msg" placeholder="Message" onkeyup="valid_msg(this)"></textarea>
+              <span id="msg_error" class="error"></span>
+        </div>
+
+        <div>
+
+            <input type="submit" value="Submit" onmousedown="contact_form();">
+            <input type="reset">
+        </div>
+
+    </fieldset>
+</form>
+</body>
+</html>
+

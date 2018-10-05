@@ -1,0 +1,16 @@
+  <?php
+     session_start();
+     if(isset($_SESSION['user']) == false){
+         header('Location: index.php');
+     }
+     ?>
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+    </head>
+    <body>
+        <h1>Welcome to dashboard </h1>
+    </body>
+</html>

@@ -1,0 +1,38 @@
+{
+  "users": [
+    {
+      "name": "hare",
+      "age": "45",
+      "country": "America",
+      "id": "1"
+    },
+    {
+      "id": "3",
+      "name": "swer",
+      "age": "78",
+      "country": "dg"
+    },
+    {
+      "id": "5",
+      "name": "swer",
+      "age": "78",
+      "country": "dg"
+    },
+    {
+      "name": "nfhyry",
+      "age": "8",
+      "country": "cvhd",
+      "id": "4"
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}

@@ -1,0 +1,29 @@
+<form class="contact-form" action="" method="POST" onclick="return false;">
+    <fieldset>
+        <legend>AJAX Login Form</legend>
+        
+          <div id="login-response" class="response_error"></div>
+        
+        <div>
+            <span id="login-response"></span>
+        </div>
+        
+        <div>
+            <label for="name">Username</label> 
+            <input type="text" name="username" id="username" placeholder="username">
+        </div>
+
+          <div>
+            <label for="email">Password</label> 
+            <input type="password" name="password" id="password" placeholder="Password">
+        </div>
+
+
+        <div>
+
+            <input type="submit" value="Login" onmousedown="login();">
+          
+        </div>
+
+    </fieldset>
+</form>
